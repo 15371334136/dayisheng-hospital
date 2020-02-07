@@ -1,0 +1,861 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>远程会诊服务逻辑</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/远程会诊服务逻辑/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/prototypePre.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/prototypePost.js"></script>
+    <script src="files/远程会诊服务逻辑/data.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (组合) -->
+      <div id="u2826" class="ax_default" data-left="168" data-top="654" data-width="455" data-height="126">
+
+        <!-- Unnamed (矩形) -->
+        <div id="u2827" class="ax_default box_1">
+          <div id="u2827_div" class=""></div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u2828" class="ax_default box_2">
+          <div id="u2828_div" class=""></div>
+          <div id="u2828_text" class="text ">
+            <p><span>进入视频</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2829" class="ax_default box_2">
+        <div id="u2829_div" class=""></div>
+        <div id="u2829_text" class="text ">
+          <p><span>用户（小程序）</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2830" class="ax_default box_2">
+        <div id="u2830_div" class=""></div>
+        <div id="u2830_text" class="text ">
+          <p><span>会诊专家（APP+PC）</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2831" class="ax_default box_2">
+        <div id="u2831_div" class=""></div>
+        <div id="u2831_text" class="text ">
+          <p><span>医院医生（APP+PC）</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2832" class="ax_default box_1">
+        <div id="u2832_div" class=""></div>
+        <div id="u2832_text" class="text ">
+          <p><span>选择专家</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (图片) -->
+      <div id="u2833" class="ax_default _图片1">
+        <img id="u2833_img" class="img " src="images/视频门诊逻辑/u209.png"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2834" class="ax_default label">
+        <div id="u2834_div" class=""></div>
+        <div id="u2834_text" class="text ">
+          <p><span style="text-decoration:underline;">疾病名称</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2835" class="ax_default label">
+        <div id="u2835_div" class=""></div>
+        <div id="u2835_text" class="text ">
+          <p><span style="text-decoration:underline;">疾病描述</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u2836" class="ax_default line">
+        <img id="u2836_img" class="img " src="images/远程会诊逻辑/u876.png"/>
+      </div>
+
+      <!-- Unnamed (垂直线) -->
+      <div id="u2837" class="ax_default line">
+        <img id="u2837_img" class="img " src="images/远程会诊逻辑/u877.png"/>
+      </div>
+
+      <!-- Unnamed (水平线) -->
+      <div id="u2838" class="ax_default line">
+        <img id="u2838_img" class="img " src="images/远程会诊逻辑/u876.png"/>
+      </div>
+
+      <!-- Unnamed (垂直线) -->
+      <div id="u2839" class="ax_default line">
+        <img id="u2839_img" class="img " src="images/远程会诊逻辑/u879.png"/>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2840" class="ax_default box_1">
+        <div id="u2840_div" class=""></div>
+        <div id="u2840_text" class="text ">
+          <p><span>申请</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2841" class="ax_default box_1">
+        <div id="u2841_div" class=""></div>
+        <div id="u2841_text" class="text ">
+          <p><span>申请</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u2842" class="ax_default _连接线">
+        <img id="u2842_seg0" class="img " src="images/远程会诊逻辑/u882_seg0.png" alt="u2842_seg0"/>
+        <img id="u2842_seg1" class="img " src="images/在线问诊逻辑/u140_seg1.png" alt="u2842_seg1"/>
+        <img id="u2842_seg2" class="img " src="images/在线问诊逻辑/u140_seg2.png" alt="u2842_seg2"/>
+        <div id="u2842_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (菱形) -->
+      <div id="u2843" class="ax_default box_1">
+        <img id="u2843_img" class="img " src="images/远程会诊逻辑/u883.png"/>
+        <div id="u2843_text" class="text ">
+          <p><span>线下联系专家</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2844" class="ax_default box_1">
+        <div id="u2844_div" class=""></div>
+        <div id="u2844_text" class="text ">
+          <p><span>专家不同意</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2845" class="ax_default box_1">
+        <div id="u2845_div" class=""></div>
+        <div id="u2845_text" class="text ">
+          <p><span>选择专家</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2846" class="ax_default box_1">
+        <div id="u2846_div" class=""></div>
+        <div id="u2846_text" class="text ">
+          <p><span>选择患者</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u2847" class="ax_default _连接线">
+        <img id="u2847_seg0" class="img " src="images/远程会诊逻辑/u887_seg0.png" alt="u2847_seg0"/>
+        <img id="u2847_seg1" class="img " src="images/远程会诊逻辑/u887_seg1.png" alt="u2847_seg1"/>
+        <img id="u2847_seg2" class="img " src="images/远程会诊逻辑/u887_seg2.png" alt="u2847_seg2"/>
+        <img id="u2847_seg3" class="img " src="images/在线问诊逻辑/u140_seg1.png" alt="u2847_seg3"/>
+        <img id="u2847_seg4" class="img " src="images/远程会诊逻辑/u887_seg4.png" alt="u2847_seg4"/>
+        <div id="u2847_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u2848" class="ax_default _连接线">
+        <img id="u2848_seg0" class="img " src="images/远程会诊逻辑/u888_seg0.png" alt="u2848_seg0"/>
+        <img id="u2848_seg1" class="img " src="images/远程会诊逻辑/u888_seg1.png" alt="u2848_seg1"/>
+        <img id="u2848_seg2" class="img " src="images/远程会诊逻辑/u888_seg2.png" alt="u2848_seg2"/>
+        <img id="u2848_seg3" class="img " src="images/在线问诊逻辑/u140_seg1.png" alt="u2848_seg3"/>
+        <img id="u2848_seg4" class="img " src="images/远程会诊逻辑/u888_seg4.png" alt="u2848_seg4"/>
+        <div id="u2848_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2849" class="ax_default box_1">
+        <div id="u2849_div" class=""></div>
+        <div id="u2849_text" class="text ">
+          <p><span>生成申请记录</span></p><p><span>【待审核】</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u2850" class="ax_default _连接线">
+        <img id="u2850_seg0" class="img " src="images/在线问诊逻辑/u146_seg0.png" alt="u2850_seg0"/>
+        <img id="u2850_seg1" class="img " src="images/在线问诊逻辑/u140_seg1.png" alt="u2850_seg1"/>
+        <img id="u2850_seg2" class="img " src="images/在线问诊逻辑/u146_seg2.png" alt="u2850_seg2"/>
+        <div id="u2850_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2851" class="ax_default box_1">
+        <div id="u2851_div" class=""></div>
+        <div id="u2851_text" class="text ">
+          <p><span>生成会诊预约记录</span></p><p><span>【待会诊】</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u2852" class="ax_default _连接线">
+        <img id="u2852_seg0" class="img " src="images/远程会诊逻辑/u892_seg0.png" alt="u2852_seg0"/>
+        <img id="u2852_seg1" class="img " src="images/在线问诊逻辑/u140_seg1.png" alt="u2852_seg1"/>
+        <img id="u2852_seg2" class="img " src="images/视频门诊逻辑/u210_seg2.png" alt="u2852_seg2"/>
+        <div id="u2852_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2853" class="ax_default box_1">
+        <div id="u2853_div" class=""></div>
+        <div id="u2853_text" class="text ">
+          <p><span>生成申请记录</span></p><p><span>【待审核】</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u2854" class="ax_default _连接线">
+        <img id="u2854_seg0" class="img " src="images/在线问诊逻辑/u146_seg0.png" alt="u2854_seg0"/>
+        <img id="u2854_seg1" class="img " src="images/在线问诊逻辑/u140_seg1.png" alt="u2854_seg1"/>
+        <img id="u2854_seg2" class="img " src="images/在线问诊逻辑/u146_seg2.png" alt="u2854_seg2"/>
+        <div id="u2854_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u2855" class="ax_default _连接线">
+        <img id="u2855_seg0" class="img " src="images/远程会诊逻辑/u895_seg0.png" alt="u2855_seg0"/>
+        <img id="u2855_seg1" class="img " src="images/视频门诊逻辑/u255_seg2.png" alt="u2855_seg1"/>
+        <img id="u2855_seg2" class="img " src="images/在线问诊逻辑/u139_seg2.png" alt="u2855_seg2"/>
+        <div id="u2855_text" class="text ">
+          <p><span>同步生成记录</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2856" class="ax_default box_1">
+        <div id="u2856_div" class=""></div>
+        <div id="u2856_text" class="text ">
+          <p><span>申请记录</span></p><p><span>【待会诊】</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u2857" class="ax_default _连接线">
+        <img id="u2857_seg0" class="img " src="images/远程会诊逻辑/u897_seg0.png" alt="u2857_seg0"/>
+        <img id="u2857_seg1" class="img " src="images/视频门诊逻辑/u222_seg1.png" alt="u2857_seg1"/>
+        <img id="u2857_seg2" class="img " src="images/远程会诊逻辑/u897_seg2.png" alt="u2857_seg2"/>
+        <div id="u2857_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u2858" class="ax_default _连接线">
+        <img id="u2858_seg0" class="img " src="images/远程会诊逻辑/u898_seg0.png" alt="u2858_seg0"/>
+        <img id="u2858_seg1" class="img " src="images/视频门诊逻辑/u222_seg1.png" alt="u2858_seg1"/>
+        <img id="u2858_seg2" class="img " src="images/远程会诊逻辑/u898_seg2.png" alt="u2858_seg2"/>
+        <div id="u2858_text" class="text ">
+          <p><span>同步变更</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2859" class="ax_default box_1">
+        <div id="u2859_div" class=""></div>
+        <div id="u2859_text" class="text ">
+          <p><span>申请记录</span></p><p><span>【待会诊】</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u2860" class="ax_default _连接线">
+        <img id="u2860_seg0" class="img " src="images/远程会诊逻辑/u900_seg0.png" alt="u2860_seg0"/>
+        <img id="u2860_seg1" class="img " src="images/在线问诊逻辑/u136_seg1.png" alt="u2860_seg1"/>
+        <img id="u2860_seg2" class="img " src="images/远程会诊逻辑/u900_seg2.png" alt="u2860_seg2"/>
+        <div id="u2860_text" class="text ">
+          <p><span>同步变更</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u2861" class="ax_default" data-left="201" data-top="710" data-width="35" data-height="35">
+
+        <!-- Unnamed (椭圆形) -->
+        <div id="u2862" class="ax_default ellipse">
+          <img id="u2862_img" class="img " src="images/视频门诊逻辑/u275.png"/>
+        </div>
+
+        <!-- Unnamed (图片) -->
+        <div id="u2863" class="ax_default image">
+          <img id="u2863_img" class="img " src="images/视频门诊逻辑/u276.png"/>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u2864" class="ax_default" data-left="364" data-top="710" data-width="35" data-height="35">
+
+        <!-- Unnamed (椭圆形) -->
+        <div id="u2865" class="ax_default ellipse">
+          <img id="u2865_img" class="img " src="images/就医绿通逻辑/u318.png"/>
+        </div>
+
+        <!-- Unnamed (图片) -->
+        <div id="u2866" class="ax_default _图片1">
+          <img id="u2866_img" class="img " src="images/就医绿通逻辑/u319.png"/>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2867" class="ax_default _文本段落">
+        <div id="u2867_div" class=""></div>
+        <div id="u2867_text" class="text ">
+          <p><span>视频房间</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2868" class="ax_default _文本段落">
+        <div id="u2868_div" class=""></div>
+        <div id="u2868_text" class="text ">
+          <p><span>视频房间</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u2869" class="ax_default _连接线">
+        <img id="u2869_seg0" class="img " src="images/远程会诊逻辑/u909_seg0.png" alt="u2869_seg0"/>
+        <img id="u2869_seg1" class="img " src="images/远程会诊逻辑/u909_seg1.png" alt="u2869_seg1"/>
+        <img id="u2869_seg2" class="img " src="images/远程会诊逻辑/u909_seg2.png" alt="u2869_seg2"/>
+        <img id="u2869_seg3" class="img " src="images/在线问诊逻辑/u140_seg1.png" alt="u2869_seg3"/>
+        <img id="u2869_seg4" class="img " src="images/远程会诊逻辑/u887_seg4.png" alt="u2869_seg4"/>
+        <div id="u2869_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u2870" class="ax_default _连接线">
+        <img id="u2870_seg0" class="img " src="images/远程会诊逻辑/u910_seg0.png" alt="u2870_seg0"/>
+        <img id="u2870_seg1" class="img " src="images/在线问诊逻辑/u140_seg1.png" alt="u2870_seg1"/>
+        <img id="u2870_seg2" class="img " src="images/在线问诊逻辑/u146_seg2.png" alt="u2870_seg2"/>
+        <div id="u2870_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u2871" class="ax_default _连接线">
+        <img id="u2871_seg0" class="img " src="images/远程会诊逻辑/u911_seg0.png" alt="u2871_seg0"/>
+        <img id="u2871_seg1" class="img " src="images/远程会诊逻辑/u911_seg1.png" alt="u2871_seg1"/>
+        <img id="u2871_seg2" class="img " src="images/远程会诊逻辑/u911_seg2.png" alt="u2871_seg2"/>
+        <img id="u2871_seg3" class="img " src="images/在线问诊逻辑/u140_seg1.png" alt="u2871_seg3"/>
+        <img id="u2871_seg4" class="img " src="images/在线问诊逻辑/u184_seg4.png" alt="u2871_seg4"/>
+        <div id="u2871_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2872" class="ax_default box_1">
+        <div id="u2872_div" class=""></div>
+        <div id="u2872_text" class="text ">
+          <p><span>到达预约时间</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2873" class="ax_default box_1">
+        <div id="u2873_div" class=""></div>
+        <div id="u2873_text" class="text ">
+          <p><span>到达预约时间</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2874" class="ax_default box_1">
+        <div id="u2874_div" class=""></div>
+        <div id="u2874_text" class="text ">
+          <p><span>填写会诊结果单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2875" class="ax_default box_1">
+        <div id="u2875_div" class=""></div>
+        <div id="u2875_text" class="text ">
+          <p><span>确认</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2876" class="ax_default box_1">
+        <div id="u2876_div" class=""></div>
+        <div id="u2876_text" class="text ">
+          <p><span>生成会诊结果单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (菱形) -->
+      <div id="u2877" class="ax_default box_1">
+        <img id="u2877_img" class="img " src="images/视频门诊逻辑/u217.png"/>
+        <div id="u2877_text" class="text ">
+          <p><span>有无异议</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2878" class="ax_default box_1">
+        <div id="u2878_div" class=""></div>
+        <div id="u2878_text" class="text ">
+          <p><span>电子签名</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2879" class="ax_default box_1">
+        <div id="u2879_div" class=""></div>
+        <div id="u2879_text" class="text ">
+          <p><span>修改会诊结果单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u2880" class="ax_default _连接线">
+        <img id="u2880_seg0" class="img " src="images/视频门诊逻辑/u222_seg0.png" alt="u2880_seg0"/>
+        <img id="u2880_seg1" class="img " src="images/视频门诊逻辑/u222_seg1.png" alt="u2880_seg1"/>
+        <img id="u2880_seg2" class="img " src="images/视频门诊逻辑/u222_seg2.png" alt="u2880_seg2"/>
+        <div id="u2880_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u2881" class="ax_default _连接线">
+        <img id="u2881_seg0" class="img " src="images/视频门诊逻辑/u223_seg0.png" alt="u2881_seg0"/>
+        <img id="u2881_seg1" class="img " src="images/在线问诊逻辑/u140_seg1.png" alt="u2881_seg1"/>
+        <img id="u2881_seg2" class="img " src="images/在线问诊逻辑/u160_seg2.png" alt="u2881_seg2"/>
+        <div id="u2881_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u2882" class="ax_default" data-left="378" data-top="994" data-width="30" data-height="63">
+
+        <!-- Unnamed (连接线) -->
+        <div id="u2883" class="ax_default _连接线">
+          <img id="u2883_seg0" class="img " src="images/视频门诊逻辑/u225_seg0.png" alt="u2883_seg0"/>
+          <img id="u2883_seg1" class="img " src="images/在线问诊逻辑/u140_seg1.png" alt="u2883_seg1"/>
+          <img id="u2883_seg2" class="img " src="images/在线问诊逻辑/u160_seg2.png" alt="u2883_seg2"/>
+          <div id="u2883_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u2884" class="ax_default box_1">
+          <div id="u2884_div" class=""></div>
+          <div id="u2884_text" class="text ">
+            <p><span>无</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (组合) -->
+      <div id="u2885" class="ax_default" data-left="462" data-top="953" data-width="154" data-height="18">
+
+        <!-- Unnamed (连接线) -->
+        <div id="u2886" class="ax_default _连接线">
+          <img id="u2886_seg0" class="img " src="images/在线问诊逻辑/u136_seg0.png" alt="u2886_seg0"/>
+          <img id="u2886_seg1" class="img " src="images/在线问诊逻辑/u136_seg1.png" alt="u2886_seg1"/>
+          <img id="u2886_seg2" class="img " src="images/在线问诊逻辑/u136_seg2.png" alt="u2886_seg2"/>
+          <div id="u2886_text" class="text " style="display:none; visibility: hidden">
+            <p></p>
+          </div>
+        </div>
+
+        <!-- Unnamed (矩形) -->
+        <div id="u2887" class="ax_default box_1">
+          <div id="u2887_div" class=""></div>
+          <div id="u2887_text" class="text ">
+            <p><span>有</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u2888" class="ax_default _连接线">
+        <img id="u2888_seg0" class="img " src="images/视频门诊逻辑/u230_seg0.png" alt="u2888_seg0"/>
+        <img id="u2888_seg1" class="img " src="images/视频门诊逻辑/u230_seg1.png" alt="u2888_seg1"/>
+        <img id="u2888_seg2" class="img " src="images/视频门诊逻辑/u230_seg2.png" alt="u2888_seg2"/>
+        <img id="u2888_seg3" class="img " src="images/视频门诊逻辑/u230_seg3.png" alt="u2888_seg3"/>
+        <img id="u2888_seg4" class="img " src="images/在线问诊逻辑/u197_seg1.png" alt="u2888_seg4"/>
+        <img id="u2888_seg5" class="img " src="images/视频门诊逻辑/u230_seg5.png" alt="u2888_seg5"/>
+        <div id="u2888_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u2889" class="ax_default _连接线">
+        <img id="u2889_seg0" class="img " src="images/视频门诊逻辑/u231_seg0.png" alt="u2889_seg0"/>
+        <img id="u2889_seg1" class="img " src="images/视频门诊逻辑/u222_seg1.png" alt="u2889_seg1"/>
+        <img id="u2889_seg2" class="img " src="images/视频门诊逻辑/u222_seg2.png" alt="u2889_seg2"/>
+        <div id="u2889_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2890" class="ax_default box_1">
+        <div id="u2890_div" class=""></div>
+        <div id="u2890_text" class="text ">
+          <p><span>生成会诊结果单</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u2891" class="ax_default _连接线">
+        <img id="u2891_seg0" class="img " src="images/远程会诊逻辑/u931_seg0.png" alt="u2891_seg0"/>
+        <img id="u2891_seg1" class="img " src="images/在线问诊逻辑/u136_seg1.png" alt="u2891_seg1"/>
+        <img id="u2891_seg2" class="img " src="images/在线问诊逻辑/u139_seg2.png" alt="u2891_seg2"/>
+        <div id="u2891_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2892" class="ax_default box_1">
+        <div id="u2892_div" class=""></div>
+        <div id="u2892_text" class="text ">
+          <p><span>点击【结束会诊】</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2893" class="ax_default box_1">
+        <div id="u2893_div" class=""></div>
+        <div id="u2893_text" class="text ">
+          <p><span>关闭视频</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2894" class="ax_default box_1">
+        <div id="u2894_div" class=""></div>
+        <div id="u2894_text" class="text ">
+          <p><span>退出视频</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u2895" class="ax_default _连接线">
+        <img id="u2895_seg0" class="img " src="images/视频门诊逻辑/u225_seg0.png" alt="u2895_seg0"/>
+        <img id="u2895_seg1" class="img " src="images/在线问诊逻辑/u140_seg1.png" alt="u2895_seg1"/>
+        <img id="u2895_seg2" class="img " src="images/在线问诊逻辑/u160_seg2.png" alt="u2895_seg2"/>
+        <div id="u2895_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u2896" class="ax_default _连接线">
+        <img id="u2896_seg0" class="img " src="images/远程会诊逻辑/u936_seg0.png" alt="u2896_seg0"/>
+        <img id="u2896_seg1" class="img " src="images/远程会诊逻辑/u936_seg1.png" alt="u2896_seg1"/>
+        <img id="u2896_seg2" class="img " src="images/视频门诊逻辑/u222_seg1.png" alt="u2896_seg2"/>
+        <img id="u2896_seg3" class="img " src="images/远程会诊逻辑/u936_seg3.png" alt="u2896_seg3"/>
+        <div id="u2896_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2897" class="ax_default box_1">
+        <div id="u2897_div" class=""></div>
+        <div id="u2897_text" class="text ">
+          <p><span>服务结束</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2898" class="ax_default box_1">
+        <div id="u2898_div" class=""></div>
+        <div id="u2898_text" class="text ">
+          <p><span>服务结束</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u2899" class="ax_default _连接线">
+        <img id="u2899_seg0" class="img " src="images/视频门诊逻辑/u252_seg0.png" alt="u2899_seg0"/>
+        <img id="u2899_seg1" class="img " src="images/在线问诊逻辑/u140_seg1.png" alt="u2899_seg1"/>
+        <img id="u2899_seg2" class="img " src="images/在线问诊逻辑/u146_seg2.png" alt="u2899_seg2"/>
+        <div id="u2899_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u2900" class="ax_default _连接线">
+        <img id="u2900_seg0" class="img " src="images/视频门诊逻辑/u252_seg0.png" alt="u2900_seg0"/>
+        <img id="u2900_seg1" class="img " src="images/在线问诊逻辑/u140_seg1.png" alt="u2900_seg1"/>
+        <img id="u2900_seg2" class="img " src="images/在线问诊逻辑/u146_seg2.png" alt="u2900_seg2"/>
+        <div id="u2900_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2901" class="ax_default box_1">
+        <div id="u2901_div" class=""></div>
+        <div id="u2901_text" class="text ">
+          <p><span>服务评价</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2902" class="ax_default box_1">
+        <div id="u2902_div" class=""></div>
+        <div id="u2902_text" class="text ">
+          <p><span>退出视频</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2903" class="ax_default box_1">
+        <div id="u2903_div" class=""></div>
+        <div id="u2903_text" class="text ">
+          <p><span>服务结束</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u2904" class="ax_default _连接线">
+        <img id="u2904_seg0" class="img " src="images/视频门诊逻辑/u225_seg0.png" alt="u2904_seg0"/>
+        <img id="u2904_seg1" class="img " src="images/在线问诊逻辑/u140_seg1.png" alt="u2904_seg1"/>
+        <img id="u2904_seg2" class="img " src="images/在线问诊逻辑/u160_seg2.png" alt="u2904_seg2"/>
+        <div id="u2904_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u2905" class="ax_default _连接线">
+        <img id="u2905_seg0" class="img " src="images/视频门诊逻辑/u252_seg0.png" alt="u2905_seg0"/>
+        <img id="u2905_seg1" class="img " src="images/在线问诊逻辑/u140_seg1.png" alt="u2905_seg1"/>
+        <img id="u2905_seg2" class="img " src="images/在线问诊逻辑/u146_seg2.png" alt="u2905_seg2"/>
+        <div id="u2905_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u2906" class="ax_default _连接线">
+        <img id="u2906_seg0" class="img " src="images/远程会诊逻辑/u946_seg0.png" alt="u2906_seg0"/>
+        <img id="u2906_seg1" class="img " src="images/视频门诊逻辑/u255_seg2.png" alt="u2906_seg1"/>
+        <div id="u2906_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u2907" class="ax_default _连接线">
+        <img id="u2907_seg0" class="img " src="images/远程会诊逻辑/u947_seg0.png" alt="u2907_seg0"/>
+        <img id="u2907_seg1" class="img " src="images/在线问诊逻辑/u160_seg2.png" alt="u2907_seg1"/>
+        <div id="u2907_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2908" class="ax_default box_1">
+        <div id="u2908_div" class=""></div>
+        <div id="u2908_text" class="text ">
+          <p><span>专家同意</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u2909" class="ax_default _连接线">
+        <img id="u2909_seg0" class="img " src="images/远程会诊逻辑/u949_seg0.png" alt="u2909_seg0"/>
+        <img id="u2909_seg1" class="img " src="images/远程会诊逻辑/u949_seg1.png" alt="u2909_seg1"/>
+        <img id="u2909_seg2" class="img " src="images/在线问诊逻辑/u194_seg3.png" alt="u2909_seg2"/>
+        <div id="u2909_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u2910" class="ax_default _连接线">
+        <img id="u2910_seg0" class="img " src="images/远程会诊逻辑/u950_seg0.png" alt="u2910_seg0"/>
+        <img id="u2910_seg1" class="img " src="images/在线问诊逻辑/u140_seg2.png" alt="u2910_seg1"/>
+        <div id="u2910_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2911" class="ax_default box_1">
+        <div id="u2911_div" class=""></div>
+        <div id="u2911_text" class="text ">
+          <p><span>申请记录</span></p><p><span>【不通过】</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u2912" class="ax_default _连接线">
+        <img id="u2912_seg0" class="img " src="images/远程会诊逻辑/u952_seg0.png" alt="u2912_seg0"/>
+        <img id="u2912_seg1" class="img " src="images/视频门诊逻辑/u222_seg2.png" alt="u2912_seg1"/>
+        <div id="u2912_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2913" class="ax_default box_1">
+        <div id="u2913_div" class=""></div>
+        <div id="u2913_text" class="text ">
+          <p><span>申请记录</span></p><p><span>【不通过】</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u2914" class="ax_default _连接线">
+        <img id="u2914_seg0" class="img " src="images/远程会诊逻辑/u954_seg0.png" alt="u2914_seg0"/>
+        <img id="u2914_seg1" class="img " src="images/远程会诊逻辑/u954_seg1.png" alt="u2914_seg1"/>
+        <img id="u2914_seg2" class="img " src="images/远程会诊逻辑/u954_seg2.png" alt="u2914_seg2"/>
+        <img id="u2914_seg3" class="img " src="images/视频门诊逻辑/u256_seg4.png" alt="u2914_seg3"/>
+        <div id="u2914_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (连接线) -->
+      <div id="u2915" class="ax_default _连接线">
+        <img id="u2915_seg0" class="img " src="images/远程会诊逻辑/u955_seg0.png" alt="u2915_seg0"/>
+        <img id="u2915_seg1" class="img " src="images/远程会诊逻辑/u955_seg1.png" alt="u2915_seg1"/>
+        <img id="u2915_seg2" class="img " src="images/就医绿通逻辑/u322_seg2.png" alt="u2915_seg2"/>
+        <div id="u2915_text" class="text " style="display:none; visibility: hidden">
+          <p></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2916" class="ax_default label">
+        <div id="u2916_div" class=""></div>
+        <div id="u2916_text" class="text ">
+          <p><span style="text-decoration:underline;">影像资料</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2917" class="ax_default label">
+        <div id="u2917_div" class=""></div>
+        <div id="u2917_text" class="text ">
+          <p><span>短信通知</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2918" class="ax_default label">
+        <div id="u2918_div" class=""></div>
+        <div id="u2918_text" class="text ">
+          <p><span>电话通知</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2919" class="ax_default label">
+        <div id="u2919_div" class=""></div>
+        <div id="u2919_text" class="text ">
+          <p><span>短信通知</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2920" class="ax_default label">
+        <div id="u2920_div" class=""></div>
+        <div id="u2920_text" class="text ">
+          <p><span style="text-decoration:underline;">疾病名称</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2921" class="ax_default label">
+        <div id="u2921_div" class=""></div>
+        <div id="u2921_text" class="text ">
+          <p><span style="text-decoration:underline;">疾病描述</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2922" class="ax_default label">
+        <div id="u2922_div" class=""></div>
+        <div id="u2922_text" class="text ">
+          <p><span style="text-decoration:underline;">影像资料</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2923" class="ax_default label">
+        <div id="u2923_div" class=""></div>
+        <div id="u2923_text" class="text ">
+          <p><span style="text-decoration:underline;">或大医生人员协助联系</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2924" class="ax_default label">
+        <div id="u2924_div" class=""></div>
+        <div id="u2924_text" class="text ">
+          <p><span>￥</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2925" class="ax_default label">
+        <div id="u2925_div" class=""></div>
+        <div id="u2925_text" class="text ">
+          <p><span>￥</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (矩形) -->
+      <div id="u2926" class="ax_default _文本段落">
+        <div id="u2926_div" class=""></div>
+        <div id="u2926_text" class="text ">
+          <p><span>会诊医生信息有大医生管理平台录入</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
